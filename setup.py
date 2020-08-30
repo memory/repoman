@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 __name__ = 'apt-repoman'
-__version__ = '1.0.5'
+__version__ = '1.0.6'
 
 setup(
     name=__name__,
@@ -50,6 +50,7 @@ setup(
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: Implementation :: CPython",
         "Topic :: System :: Archiving :: Packaging",
         ]
