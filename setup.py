@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 __name__ = 'apt-repoman'
-__version__ = '1.0.6'
+__version__ = '1.0.7'
 
 setup(
     name=__name__,
@@ -23,7 +23,7 @@ setup(
         "wheel",
     ],
     install_requires=[
-        'PGPy==0.4.1',
+        'PGPy==0.5.2',
         'ansicolors==1.1.8',
         'boto3==1.4.4',
         'configargparse==0.12.0',
